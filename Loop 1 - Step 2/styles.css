@@ -1,0 +1,97 @@
+*{
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+body{
+  background-image: url(img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Roboto;
+}
+.contenedor{
+  width: 50vw;
+}
+
+.boxselector{
+  margin-top: 100px;
+  width: 60%;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+}
+
+.titulo{
+  padding: 20px;
+  text-align: center;
+}
+
+.tarjetas{
+  list-style: none;
+}
+
+li{
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border: 2px 0 0 0;
+  border-color: grey;
+}
+
+li:hover{
+  background-color: rgba(112, 112, 112, 0.24);
+}
+
+.seleccionado{
+color: black;
+font-weight: bold;
+}
+
+.imagen {
+  width: 15%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+}
+
+.texto{
+  width: 50%;
+  font-weight: 200;
+  color: #757575;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.check{
+  width: 8%;
+  height: 8%;
+}
+
+.none{
+  display: none;
+}
+
+
+.boton{
+  background-color: #2196F3;
+  padding: 15px;
+  border-radius: 0 0 5px 5px ;
+}
+
+.cajaBoton{
+  width: 50%;
+  color: white;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.botonText{
+  display: inline;
+}
+
+.flecha{
+
+}

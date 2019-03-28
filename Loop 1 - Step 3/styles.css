@@ -1,0 +1,109 @@
+*{
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+body {
+  background-color: #16A085;
+  font-family: 'Roboto';
+}
+
+.container{
+  width:50vw;
+}
+
+.order{
+  width:80%;
+  height: 600px;
+  margin-top: 100px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 30px 30px 0;
+}
+
+.titulo{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.texto1{
+  width: 80%;
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+  display: flex;
+  align-items: flex-start;
+}
+
+.account{
+  border-style: solid;
+  border-width: 15px;
+  border-color: white;
+  border-radius: 50px;
+}
+
+.account:hover{
+  border-style: solid;
+  border-width: 15px;
+  border-color: rgba(0, 0, 0, 0.24);
+  border-radius: 50px;
+}
+.accountbox{
+  width: 20%;
+  display: flex;
+  justify-content:
+}
+
+.descripcion{
+  width: 100%;
+  padding: 20px 0px;
+}
+
+.texto2{
+  font-size: 15px;
+  font-weight: 400;
+  color: #C4BFBA;
+  text-align: left;
+}
+
+.listitems{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.orderitems{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+
+.itemtext{
+  width: 80%;
+  font-size: 18px;
+  font-weight: 400;
+  color: #858D91;
+  text-align: left;
+}
+
+.itemprice{
+  width: 20%;
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+  text-align: right;
+}
+
+.imagen{
+  height: 300px;
+  overflow: hidden;
+}
+
+.bici{
+  width: 100%;
+}
